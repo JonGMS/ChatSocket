@@ -16,7 +16,7 @@ namespace RobII
         private NetworkStream streamConexao;
 
         string[,] listaDeMembros = new string[5, 9];
-        List<(string id, string nome)> remetentes = new List<(string id, string nome)>();
+        List<(int id, string nome)> remetentes = new List<(int id, string nome)>();
 
         public Remetente membro = new Remetente();
         public readonly TelaInicial tela;

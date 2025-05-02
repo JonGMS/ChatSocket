@@ -30,6 +30,24 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaInicial));
             panelSideBar = new Panel();
+            panel17 = new Panel();
+            label16 = new Label();
+            pictureBox8 = new PictureBox();
+            panel16 = new Panel();
+            label15 = new Label();
+            pictureBox7 = new PictureBox();
+            panel15 = new Panel();
+            label14 = new Label();
+            pictureBox5 = new PictureBox();
+            panel14 = new Panel();
+            label13 = new Label();
+            pictureBox4 = new PictureBox();
+            panel13 = new Panel();
+            label12 = new Label();
+            pictureBox2 = new PictureBox();
+            panel12 = new Panel();
+            label11 = new Label();
+            pictureBox1 = new PictureBox();
             panel1 = new Panel();
             panelMembro8 = new Panel();
             label10 = new Label();
@@ -80,25 +98,20 @@
             pictureBoxMembro6 = new PictureBox();
             label9 = new Label();
             pictureBoxMembro7 = new PictureBox();
-            panel12 = new Panel();
-            label11 = new Label();
-            pictureBox1 = new PictureBox();
-            panel13 = new Panel();
-            label12 = new Label();
-            pictureBox2 = new PictureBox();
-            panel14 = new Panel();
-            label13 = new Label();
-            pictureBox4 = new PictureBox();
-            panel15 = new Panel();
-            label14 = new Label();
-            pictureBox5 = new PictureBox();
-            panel16 = new Panel();
-            label15 = new Label();
-            pictureBox7 = new PictureBox();
-            panel17 = new Panel();
-            label16 = new Label();
-            pictureBox8 = new PictureBox();
+            buttonConfiguracao = new Button();
             panelSideBar.SuspendLayout();
+            panel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            panel16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
+            panel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panelMembro8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxMembro8).BeginInit();
             panelMembro1.SuspendLayout();
@@ -124,23 +137,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBoxMembro5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxMembro6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxMembro7).BeginInit();
-            panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panel13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            panel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            panel15.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            panel16.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            panel17.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             SuspendLayout();
             // 
             // panelSideBar
             // 
             panelSideBar.BackColor = Color.FromArgb(162, 0, 86);
+            panelSideBar.Controls.Add(buttonConfiguracao);
             panelSideBar.Controls.Add(panel17);
             panelSideBar.Controls.Add(panel16);
             panelSideBar.Controls.Add(panel15);
@@ -158,6 +160,180 @@
             panelSideBar.Name = "panelSideBar";
             panelSideBar.Size = new Size(257, 682);
             panelSideBar.TabIndex = 0;
+            // 
+            // panel17
+            // 
+            panel17.Controls.Add(label16);
+            panel17.Controls.Add(pictureBox8);
+            panel17.Location = new Point(0, 539);
+            panel17.Name = "panel17";
+            panel17.Size = new Size(255, 61);
+            panel17.TabIndex = 18;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Font = new Font("MS Reference Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label16.ForeColor = Color.White;
+            label16.Location = new Point(77, 29);
+            label16.Name = "label16";
+            label16.Size = new Size(55, 19);
+            label16.TabIndex = 1;
+            label16.Text = "Offline";
+            // 
+            // pictureBox8
+            // 
+            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
+            pictureBox8.Location = new Point(4, 5);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(50, 50);
+            pictureBox8.TabIndex = 0;
+            pictureBox8.TabStop = false;
+            // 
+            // panel16
+            // 
+            panel16.Controls.Add(label15);
+            panel16.Controls.Add(pictureBox7);
+            panel16.Location = new Point(2, 478);
+            panel16.Name = "panel16";
+            panel16.Size = new Size(255, 61);
+            panel16.TabIndex = 17;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("MS Reference Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label15.ForeColor = Color.White;
+            label15.Location = new Point(77, 29);
+            label15.Name = "label15";
+            label15.Size = new Size(55, 19);
+            label15.TabIndex = 1;
+            label15.Text = "Offline";
+            // 
+            // pictureBox7
+            // 
+            pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
+            pictureBox7.Location = new Point(4, 5);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new Size(50, 50);
+            pictureBox7.TabIndex = 0;
+            pictureBox7.TabStop = false;
+            // 
+            // panel15
+            // 
+            panel15.Controls.Add(label14);
+            panel15.Controls.Add(pictureBox5);
+            panel15.Location = new Point(2, 417);
+            panel15.Name = "panel15";
+            panel15.Size = new Size(255, 61);
+            panel15.TabIndex = 16;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("MS Reference Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label14.ForeColor = Color.White;
+            label14.Location = new Point(77, 29);
+            label14.Name = "label14";
+            label14.Size = new Size(55, 19);
+            label14.TabIndex = 1;
+            label14.Text = "Offline";
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(4, 5);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(50, 50);
+            pictureBox5.TabIndex = 0;
+            pictureBox5.TabStop = false;
+            // 
+            // panel14
+            // 
+            panel14.Controls.Add(label13);
+            panel14.Controls.Add(pictureBox4);
+            panel14.Location = new Point(0, 356);
+            panel14.Name = "panel14";
+            panel14.Size = new Size(255, 61);
+            panel14.TabIndex = 15;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("MS Reference Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label13.ForeColor = Color.White;
+            label13.Location = new Point(77, 29);
+            label13.Name = "label13";
+            label13.Size = new Size(55, 19);
+            label13.TabIndex = 1;
+            label13.Text = "Offline";
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(4, 5);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(50, 50);
+            pictureBox4.TabIndex = 0;
+            pictureBox4.TabStop = false;
+            // 
+            // panel13
+            // 
+            panel13.Controls.Add(label12);
+            panel13.Controls.Add(pictureBox2);
+            panel13.Location = new Point(0, 295);
+            panel13.Name = "panel13";
+            panel13.Size = new Size(255, 61);
+            panel13.TabIndex = 14;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("MS Reference Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label12.ForeColor = Color.White;
+            label12.Location = new Point(77, 29);
+            label12.Name = "label12";
+            label12.Size = new Size(55, 19);
+            label12.TabIndex = 1;
+            label12.Text = "Offline";
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(4, 5);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(50, 50);
+            pictureBox2.TabIndex = 0;
+            pictureBox2.TabStop = false;
+            // 
+            // panel12
+            // 
+            panel12.Controls.Add(label11);
+            panel12.Controls.Add(pictureBox1);
+            panel12.Location = new Point(0, 234);
+            panel12.Name = "panel12";
+            panel12.Size = new Size(255, 61);
+            panel12.TabIndex = 13;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("MS Reference Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label11.ForeColor = Color.White;
+            label11.Location = new Point(77, 29);
+            label11.Name = "label11";
+            label11.Size = new Size(55, 19);
+            label11.TabIndex = 1;
+            label11.Text = "Offline";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(4, 5);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(50, 50);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // panel1
             // 
@@ -671,179 +847,15 @@
             pictureBoxMembro7.TabIndex = 0;
             pictureBoxMembro7.TabStop = false;
             // 
-            // panel12
+            // buttonConfiguracao
             // 
-            panel12.Controls.Add(label11);
-            panel12.Controls.Add(pictureBox1);
-            panel12.Location = new Point(0, 234);
-            panel12.Name = "panel12";
-            panel12.Size = new Size(255, 61);
-            panel12.TabIndex = 13;
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Font = new Font("MS Reference Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label11.ForeColor = Color.White;
-            label11.Location = new Point(77, 29);
-            label11.Name = "label11";
-            label11.Size = new Size(55, 19);
-            label11.TabIndex = 1;
-            label11.Text = "Offline";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(4, 5);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(50, 50);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            // 
-            // panel13
-            // 
-            panel13.Controls.Add(label12);
-            panel13.Controls.Add(pictureBox2);
-            panel13.Location = new Point(0, 295);
-            panel13.Name = "panel13";
-            panel13.Size = new Size(255, 61);
-            panel13.TabIndex = 14;
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Font = new Font("MS Reference Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label12.ForeColor = Color.White;
-            label12.Location = new Point(77, 29);
-            label12.Name = "label12";
-            label12.Size = new Size(55, 19);
-            label12.TabIndex = 1;
-            label12.Text = "Offline";
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(4, 5);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(50, 50);
-            pictureBox2.TabIndex = 0;
-            pictureBox2.TabStop = false;
-            // 
-            // panel14
-            // 
-            panel14.Controls.Add(label13);
-            panel14.Controls.Add(pictureBox4);
-            panel14.Location = new Point(0, 356);
-            panel14.Name = "panel14";
-            panel14.Size = new Size(255, 61);
-            panel14.TabIndex = 15;
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Font = new Font("MS Reference Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label13.ForeColor = Color.White;
-            label13.Location = new Point(77, 29);
-            label13.Name = "label13";
-            label13.Size = new Size(55, 19);
-            label13.TabIndex = 1;
-            label13.Text = "Offline";
-            // 
-            // pictureBox4
-            // 
-            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(4, 5);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(50, 50);
-            pictureBox4.TabIndex = 0;
-            pictureBox4.TabStop = false;
-            // 
-            // panel15
-            // 
-            panel15.Controls.Add(label14);
-            panel15.Controls.Add(pictureBox5);
-            panel15.Location = new Point(2, 417);
-            panel15.Name = "panel15";
-            panel15.Size = new Size(255, 61);
-            panel15.TabIndex = 16;
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Font = new Font("MS Reference Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label14.ForeColor = Color.White;
-            label14.Location = new Point(77, 29);
-            label14.Name = "label14";
-            label14.Size = new Size(55, 19);
-            label14.TabIndex = 1;
-            label14.Text = "Offline";
-            // 
-            // pictureBox5
-            // 
-            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(4, 5);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(50, 50);
-            pictureBox5.TabIndex = 0;
-            pictureBox5.TabStop = false;
-            // 
-            // panel16
-            // 
-            panel16.Controls.Add(label15);
-            panel16.Controls.Add(pictureBox7);
-            panel16.Location = new Point(2, 478);
-            panel16.Name = "panel16";
-            panel16.Size = new Size(255, 61);
-            panel16.TabIndex = 17;
-            // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.Font = new Font("MS Reference Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label15.ForeColor = Color.White;
-            label15.Location = new Point(77, 29);
-            label15.Name = "label15";
-            label15.Size = new Size(55, 19);
-            label15.TabIndex = 1;
-            label15.Text = "Offline";
-            // 
-            // pictureBox7
-            // 
-            pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
-            pictureBox7.Location = new Point(4, 5);
-            pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(50, 50);
-            pictureBox7.TabIndex = 0;
-            pictureBox7.TabStop = false;
-            // 
-            // panel17
-            // 
-            panel17.Controls.Add(label16);
-            panel17.Controls.Add(pictureBox8);
-            panel17.Location = new Point(0, 539);
-            panel17.Name = "panel17";
-            panel17.Size = new Size(255, 61);
-            panel17.TabIndex = 18;
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.Font = new Font("MS Reference Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label16.ForeColor = Color.White;
-            label16.Location = new Point(77, 29);
-            label16.Name = "label16";
-            label16.Size = new Size(55, 19);
-            label16.TabIndex = 1;
-            label16.Text = "Offline";
-            // 
-            // pictureBox8
-            // 
-            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(4, 5);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(50, 50);
-            pictureBox8.TabIndex = 0;
-            pictureBox8.TabStop = false;
+            buttonConfiguracao.FlatStyle = FlatStyle.Flat;
+            buttonConfiguracao.Location = new Point(230, 89);
+            buttonConfiguracao.Name = "buttonConfiguracao";
+            buttonConfiguracao.Size = new Size(15, 15);
+            buttonConfiguracao.TabIndex = 19;
+            buttonConfiguracao.UseVisualStyleBackColor = true;
+            buttonConfiguracao.Visible = false;
             // 
             // TelaInicial
             // 
@@ -858,6 +870,24 @@
             Text = "RobII - Conexão";
             panelSideBar.ResumeLayout(false);
             panelSideBar.PerformLayout();
+            panel17.ResumeLayout(false);
+            panel17.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            panel16.ResumeLayout(false);
+            panel16.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
+            panel15.ResumeLayout(false);
+            panel15.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            panel14.ResumeLayout(false);
+            panel14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            panel13.ResumeLayout(false);
+            panel13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            panel12.ResumeLayout(false);
+            panel12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panelMembro8.ResumeLayout(false);
             panelMembro8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxMembro8).EndInit();
@@ -891,24 +921,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBoxMembro5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxMembro6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxMembro7).EndInit();
-            panel12.ResumeLayout(false);
-            panel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panel13.ResumeLayout(false);
-            panel13.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            panel14.ResumeLayout(false);
-            panel14.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            panel15.ResumeLayout(false);
-            panel15.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            panel16.ResumeLayout(false);
-            panel16.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            panel17.ResumeLayout(false);
-            panel17.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ResumeLayout(false);
         }
 
@@ -990,5 +1002,6 @@
         public Panel panel12;
         private Label label11;
         private PictureBox pictureBox1;
+        private Button buttonConfiguracao;
     }
 }

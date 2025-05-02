@@ -1,6 +1,7 @@
 ﻿using System.Net.Sockets;
 using System.Text.Json;
 using System.Text;
+using Dominio.RobII.ModuloMembro;
 
 public class ControladorTelaInicial
 {
@@ -61,21 +62,37 @@ public class ControladorTelaInicial
         }
     }
 
-    public List<(string id, string nome)> ReceberSideBar()
+    public List<(int id, string nome)> ReceberSideBar()
     {
-        List<(string id, string nome)> remetentes = new List<(string id, string nome)>();
+        List<(int id, string nome)> remetentes = new List<(int id, string nome)>();
 
         try
         {
             // 1. Ler JSON inicial
             byte[] bufferJson = new byte[4096];
             int bytesLidosJson = stream.Read(bufferJson, 0, bufferJson.Length);
+
+            if (bytesLidosJson == 0)
+            {
+                Console.WriteLine("Nenhum dado recebido do servidor.");
+                return remetentes;
+            }
+
             string json = Encoding.UTF8.GetString(bufferJson, 0, bytesLidosJson);
             Console.WriteLine("JSON recebido: " + json);
 
-            
+            // 2. Desserializar o JSON em uma lista de objetos Remetente
+            var listaRemetentes = JsonSerializer.Deserialize<List<Remetente>>(json);
 
-            
+            if (listaRemetentes != null)
+            {
+                // 3. Mapear para a lista de tuplas (id, nome)
+                foreach (var remetente in listaRemetentes)
+                {
+                    remetentes.Add((remetente.Id, remetente.Nome));
+                }
+            }
+
             return remetentes;
         }
         catch (Exception ex)
