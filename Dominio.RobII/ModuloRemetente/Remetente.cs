@@ -17,6 +17,10 @@ namespace Dominio.RobII.ModuloMembro
         {
             nome = Nome;
         }
+        public int Id {  get; set; }
         public string Nome { get; set; }
+        public DateTime DataHora { get; set; }
+        public string Ip { get; set; }
+        public bool Status { get; set; }
     }
 }

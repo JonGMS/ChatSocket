@@ -1,3 +1,4 @@
+
 using System.Net.Sockets;
 
 namespace RobII
@@ -13,11 +14,11 @@ namespace RobII
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
 
-            TcpClient cliente = new TcpClient("127.0.0.1", 20000);
+            var clientePersonalizado = new ControladorTelaInicial("127.0.0.1", 20000);
 
             ApplicationConfiguration.Initialize();
 
-            Application.Run(new TelaInicial(cliente));
+            Application.Run(new TelaInicial(clientePersonalizado));
         }
     }
 }
