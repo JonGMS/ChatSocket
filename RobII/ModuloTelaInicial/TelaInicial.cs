@@ -16,7 +16,7 @@ namespace RobII
         private NetworkStream streamConexao;
 
         string[,] listaDeMembros = new string[5, 9];
-        List<(int id, string nome)> remetentes = new List<(int id, string nome)>();
+        List<Remetente> remetentes = new List<Remetente>();
 
         public Remetente membro = new Remetente();
         public readonly TelaInicial tela;
@@ -55,7 +55,7 @@ namespace RobII
             clientePersonalizado.EnviarReceberMensagem(membro);
 
             AtualizarTela();
-            AtualizarSideBar();
+            //AtualizarSideBar();
         }
 
         private void AtualizarSideBar()

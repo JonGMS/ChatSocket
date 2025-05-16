@@ -1,4 +1,4 @@
-﻿using System.Net.Sockets;
+﻿﻿using System.Net.Sockets;
 using System.Text.Json;
 using System.Text;
 using Dominio.RobII.ModuloMembro;
@@ -62,9 +62,9 @@ public class ControladorTelaInicial
         }
     }
 
-    public List<(int id, string nome)> ReceberSideBar()
+    public List<Remetente> ReceberSideBar()
     {
-        List<(int id, string nome)> remetentes = new List<(int id, string nome)>();
+        List<Remetente> remetentes = new List<Remetente>();
 
         try
         {
@@ -89,7 +89,7 @@ public class ControladorTelaInicial
                 // 3. Mapear para a lista de tuplas (id, nome)
                 foreach (var remetente in listaRemetentes)
                 {
-                    remetentes.Add((remetente.Id, remetente.Nome));
+                    remetentes.Add(remetente);
                 }
             }
 
